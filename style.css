@@ -1,0 +1,84 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  header {
+    background-color: #111;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header span {
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .section-title {
+    background: white;
+    color: black;
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 12px;
+  }
+  .position-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 40px 0;
+    position: relative;
+  }
+  .relative-box {
+    width: 100px;
+    height: 100px;
+    background-color: limegreen;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .absolute-box {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    left: 0;
+  }
+  .center-absolute {
+    width: 200px;
+    height: 100px;
+    position: absolute;
+    background-color: red;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+  }
+  .info-card {
+    background-color: brown;
+    padding: 20px;
+    width: 30%;
+  }
+  .info-card img {
+    width: 100%;
+  }
+  .footer-controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+  }
